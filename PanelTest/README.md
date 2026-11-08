@@ -6,7 +6,7 @@ The example demonstrates how to develop built-in or custom development boards us
 
 Follow the steps below to configure:
 
-1. For **ESP32_Display_Panel**:
+1. For **ESP32_Display_Panel**:/Users/leon/iot-pianoTimer/Porting/lvgl_port_v8.hLVGL_PORT_AVOID_TEARING_MODE
 
     - Follow the [steps](../../../README.md#configuring-drivers) to configure drivers if needed.
     - If using a supported development board, follow the [steps](../../../README.md#using-supported-development-boards) to configure it.
