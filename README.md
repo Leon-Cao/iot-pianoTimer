@@ -13,3 +13,8 @@
 当前是实验原型：识别规则还未通过实录验证，不代表已经可靠排除人声。请先完成麦克风验证，再评价计时结果。原有 `PanelTest`、`Porting` 保留用于屏幕与触摸排查。
 
 本次开发环境：Arduino-ESP32 3.3.12、ESP32_Display_Panel 0.1.7、ESP32_IO_Expander 0.0.4、LVGL 8.3.11。旧安装指南的 3.0.7 为早期建议，本版在实际安装的 3.3.12 上编译验证。
+
+
+## 无电脑录音
+
+PianoTimer 界面新增 Record：准备 3 秒、录音 5 秒、保存到内置存储并校验成功后显示 Saved。回到电脑旁使用 `tools/export_recording.py` 导出原文件。见 [离线录音步骤](PianoTimer/RECORDING.md)。录音用于听检与后续识别评估，不会自动训练模型。
